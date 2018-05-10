@@ -1,0 +1,9 @@
+[package]
+name = "mpdforwarder"
+version = "0.1.0"
+authors = ["jman"]
+
+[dependencies]
+failure = { git = "https://github.com/rust-lang-nursery/failure.git" }
+bufstream =  "0.1"
+encoding = "*"
